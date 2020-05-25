@@ -1,0 +1,4 @@
+2020-04-09 13:59:50,925 - ocweb - INFO - oc_web登录的url为：https://oc-api-uat.nailtutu.com/oauth/login
+2020-04-09 13:59:50,926 - ocweb - INFO - 账号【admin@sunvalley.com.cn】开始登录oc_web......
+2020-04-09 13:59:50,926 - ocweb - INFO - 请求的参数为:{'client_id': 'd6165bbf3d804c6196c0c6d7201de970', 'client_secret': '25f9e794323b453885f5181f1b624d0b', 'scope': 'all', 'grant_type': 'password', 'email': 'admin@sunvalley.com.cn', 'password': '7d3b32520a0dfa5b64055b1c1a0981d1', 'auth_type': 'email_password'}
+2020-04-09 13:59:51,412 - ocweb - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'data': {'access_token': '01bb8235-b6c1-4fb0-a2ee-c56e2f5f6e81', 'token_type': 'bearer', 'refresh_token': '435fb5df-2726-42db-97eb-522d1b812b56', 'expires_in': 15300, 'scope': 'all'}}

@@ -1,0 +1,7 @@
+2020-04-02 17:29:02,669 - ocweb - INFO - oc_web登录的url为：https://oc-api-uat.nailtutu.com/oauth/login
+2020-04-02 17:29:02,669 - ocweb - INFO - 账号【admin@sunvalley.com.cn】开始登录oc_web......
+2020-04-02 17:29:02,669 - ocweb - INFO - 请求的参数为:{'client_id': 'd6165bbf3d804c6196c0c6d7201de970', 'client_secret': '25f9e794323b453885f5181f1b624d0b', 'scope': 'all', 'grant_type': 'password', 'email': 'admin@sunvalley.com.cn', 'password': '7d3b32520a0dfa5b64055b1c1a0981d1', 'auth_type': 'email_password'}
+2020-04-02 17:29:02,855 - ocweb - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'data': {'access_token': '6a9d9281-cd92-40b8-9d93-9c2bf5a89b03', 'token_type': 'bearer', 'refresh_token': '86830892-9ba9-4aad-83e5-f49482cf2f7d', 'expires_in': 2857, 'scope': 'all'}}
+2020-04-02 17:29:02,862 - single - INFO - 上传-单图(缩略图自适应版)的URL为:https://oc-api-uat.nailtutu.com/file/picture-upload/single?timeStamp=20200402172902&access_token=6a9d9281-cd92-40b8-9d93-9c2bf5a89b03
+2020-04-02 17:29:02,863 - single - INFO - 请求参数为{'targetid': '4305685b17aa11e9b53f005056ad4128', 'sizes': '240x360', 'with': 360, 'height': 360, 'dpi': 120, 'quality': 0.95, 'proportion': 3}
+2020-04-02 17:29:03,268 - single - INFO - 返回值为：{'stateCode': 200, 'stateMsg': 'OK', 'data': {'pictureUrl': '/tutu/system/20200402172903215_336957.jpg', 'thumbnailPictureUrl': '/tutu/system/20200402172903215_336957.jpg_360x360.jpg', 'standardPictureUrl': '', 'pictureName': 'T336F_yanyanghuakai666.jpg', 'pictureWidth': 501, 'pictureHeight': 666, 'stateMsg': '', 'taskId': ''}}

@@ -1,0 +1,15 @@
+2020-04-02 15:29:25,317 - FileParser - ERROR - 文件名不存在,请检查配置!
+Traceback (most recent call last):
+  File "D:\learn\AutoUpLoad\common\FileParsing.py", line 18, in __init__
+    self.config.read(fileName, encoding='utf-8')
+  File "D:\python3.7.2\lib\configparser.py", line 696, in read
+    self._read(fp, filename)
+  File "D:\python3.7.2\lib\configparser.py", line 1014, in _read
+    for lineno, line in enumerate(fp, start=1):
+  File "D:\python3.7.2\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc0 in position 32: invalid start byte
+2020-04-02 15:29:25,334 - ocweb - INFO - oc_web登录的url为：https://oc-api-uat.nailtutu.com/oauth/login
+2020-04-02 15:29:25,334 - ocweb - INFO - 账号【admin@sunvalley.com.cn】开始登录oc_web......
+2020-04-02 15:29:25,334 - ocweb - INFO - 请求的参数为:{'client_id': 'd6165bbf3d804c6196c0c6d7201de970', 'client_secret': '25f9e794323b453885f5181f1b624d0b', 'scope': 'all', 'grant_type': 'password', 'email': 'admin@sunvalley.com.cn', 'password': '7d3b32520a0dfa5b64055b1c1a0981d1', 'auth_type': 'email_password'}
+2020-04-02 15:29:25,555 - ocweb - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'data': {'access_token': '6a9d9281-cd92-40b8-9d93-9c2bf5a89b03', 'token_type': 'bearer', 'refresh_token': '86830892-9ba9-4aad-83e5-f49482cf2f7d', 'expires_in': 10035, 'scope': 'all'}}

@@ -1,0 +1,54 @@
+2020-04-07 16:18:57,349 - ocweb - INFO - oc_web登录的url为：https://oc-api-uat.nailtutu.com/oauth/login
+2020-04-07 16:18:57,349 - ocweb - INFO - 账号【admin@sunvalley.com.cn】开始登录oc_web......
+2020-04-07 16:18:57,349 - ocweb - INFO - 请求的参数为:{'client_id': 'd6165bbf3d804c6196c0c6d7201de970', 'client_secret': '25f9e794323b453885f5181f1b624d0b', 'scope': 'all', 'grant_type': 'password', 'email': 'admin@sunvalley.com.cn', 'password': '7d3b32520a0dfa5b64055b1c1a0981d1', 'auth_type': 'email_password'}
+2020-04-07 16:18:57,555 - ocweb - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'data': {'access_token': '6e11c2ee-4001-41f0-b846-21fcf256421e', 'token_type': 'bearer', 'refresh_token': 'a713f1db-a9e5-49da-973b-072cd283031e', 'expires_in': 23540, 'scope': 'all'}}
+2020-04-07 16:18:57,557 - queryUserInfoList - INFO - url为:https://oc-api-uat.nailtutu.com/user/userInfo/queryUserInfoList?access_token=6e11c2ee-4001-41f0-b846-21fcf256421e&lang=zh&timeStamp=20200407161857
+2020-04-07 16:18:57,557 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 1, 'pageSize': '1000'}
+2020-04-07 16:18:57,743 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 1, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': [{'id': 'efbc88c058dc412e97790f60dd38ba57', 'uid': 90001399, 'username': 'oFZ0f1LJfAtkKyVkJw_hmg3YyQ2U', 'nickname': 'YaDAn7', 'email': None, 'mobile': None, 'lastName': '', 'firstName': '', 'headPortrait': '/tutu/anjou/headportrait/20200313100252016_247023.jpeg', 'headPortraitThumbnail': '/tutu/anjou/headportrait/20200313101000620_427919.png', 'sex': 0, 'userStatus': '0', 'creatorId': 'efbc88c058dc412e97790f60dd38ba57', 'creatorName': 'YaDAn7', 'createTime': '2020-03-13 10:02:52', 'modifierId': '', 'modifierName': '', 'modifyTime': None, 'recordState': 0, 'productLineId': '46981435671117824', 'clientId': 'f9c8218ff78a4e8daa6f014b20c61be2', 'tenantId': '61bf9fc4a862452c8e7f09ef0b4e9a42', 'birthday': '', 'country': '', 'province': '', 'area': '', 'city': '', 'address': '', 'industry': ''}]}
+2020-04-07 16:18:57,743 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 2, 'pageSize': '1000'}
+2020-04-07 16:18:57,913 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 2, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:18:57,914 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 3, 'pageSize': '1000'}
+2020-04-07 16:18:58,080 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 3, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:18:58,081 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 4, 'pageSize': '1000'}
+2020-04-07 16:18:58,248 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 4, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:18:58,248 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 5, 'pageSize': '1000'}
+2020-04-07 16:18:58,416 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 5, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:18:58,416 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 6, 'pageSize': '1000'}
+2020-04-07 16:18:58,577 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 6, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:18:58,577 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 7, 'pageSize': '1000'}
+2020-04-07 16:18:58,875 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 7, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:18:58,876 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 8, 'pageSize': '1000'}
+2020-04-07 16:18:59,100 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 8, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:18:59,100 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 9, 'pageSize': '1000'}
+2020-04-07 16:18:59,344 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 9, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:18:59,345 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 10, 'pageSize': '1000'}
+2020-04-07 16:18:59,568 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 10, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:18:59,568 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 11, 'pageSize': '1000'}
+2020-04-07 16:18:59,798 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 11, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:18:59,798 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 12, 'pageSize': '1000'}
+2020-04-07 16:19:00,011 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 12, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:00,012 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 13, 'pageSize': '1000'}
+2020-04-07 16:19:00,207 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 13, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:00,207 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 14, 'pageSize': '1000'}
+2020-04-07 16:19:00,396 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 14, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:00,397 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 15, 'pageSize': '1000'}
+2020-04-07 16:19:00,560 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 15, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:00,561 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 16, 'pageSize': '1000'}
+2020-04-07 16:19:00,793 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 16, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:00,793 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 17, 'pageSize': '1000'}
+2020-04-07 16:19:00,956 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 17, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:00,956 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 18, 'pageSize': '1000'}
+2020-04-07 16:19:01,098 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 18, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:01,098 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 19, 'pageSize': '1000'}
+2020-04-07 16:19:01,255 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 19, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:01,255 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 20, 'pageSize': '1000'}
+2020-04-07 16:19:01,387 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 20, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:01,387 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 21, 'pageSize': '1000'}
+2020-04-07 16:19:01,532 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 21, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:01,533 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 22, 'pageSize': '1000'}
+2020-04-07 16:19:01,687 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 22, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:01,688 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 23, 'pageSize': '1000'}
+2020-04-07 16:19:01,827 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 23, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:01,828 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 24, 'pageSize': '1000'}
+2020-04-07 16:19:01,970 - queryUserInfoList - INFO - 返回的参数为:{'stateCode': 200, 'stateMsg': 'OK', 'currentPage': 24, 'pageSize': 1000, 'totalNum': 1, 'totalPage': 1, 'data': None}
+2020-04-07 16:19:01,970 - queryUserInfoList - INFO - 请求的参数为:{'username': '', 'nickname': 'YaDAn7', 'mobile': '', 'email': '', 'userStatus': '0', 'currentPage': 25, 'pageSize': '1000'}
